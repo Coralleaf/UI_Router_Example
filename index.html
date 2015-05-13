@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="myApp">
+	<head>
+    	<script src="js/angular.min.js"></script>
+    	<script src="js/angular-ui-router.min.js"></script>
+      <script src="js/myApp.js"></script>
+	</head>
+	<body>
+		
+    <!-- We'll also add some navigation: -->
+    <a ui-sref="blogCategoryList">blogCategoryList</a>
+    <!--
+    <a ui-sref="askDoctorCategoryList">askDoctorCategoryList</a>
+    <a ui-sref="doctorInfoCategoryList">doctorInfoCategoryList</a>
+    <a ui-sref="login">login</a>
+    -->
+    <hr>
+    <div ui-view></div>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<html>
+	<head></head>
+	<body>
+		<div ui-view>
+			Article Detail: {{articleId}} in {{catName}} <br>
+			<a href="{{$location.path()}}#/blogCategoryList/{{catName}}">Back to {{catName}}<br></a>
+			<a href="{{$location.path()}}#/blogCategoryList/{{catName}}/{{articleId}}/comment">Add comment<br></a>
+		</div>
+	</body>
+</html>

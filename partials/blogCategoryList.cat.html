@@ -1,0 +1,9 @@
+<html>
+	<head></head>
+	<body>
+		<div ui-view>
+			Category: {{catName}} <br>
+			<a href="{{$location.path()}}#/blogCategoryList/{{catName}}/{{id}}" ng-repeat="id in articleList">{{id}}<br></a>
+		</div>
+	</body>
+</html>

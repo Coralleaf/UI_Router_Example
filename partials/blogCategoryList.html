@@ -1,0 +1,10 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<div ui-view>
+			State: blogCategoryList<br>
+			<a href="{{$location.path()}}#/blogCategoryList/{{cat}}" ng-repeat="cat in categoryList">{{cat}}<br></a>
+		</div>
+	</body>
+</html>
