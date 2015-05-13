@@ -1,7 +1,9 @@
 # UI_Router_Example
 
 State:  
-home * -> blogCategoryList -> blogCategoryList.cat -> blogCategoryList.cat.detail -> blogCategoryList.cat.detail.comment  
+home * ->  
+  
+     * -> blogCategoryList -> blogCategoryList.cat -> blogCategoryList.cat.detail -> blogCategoryList.cat.detail.comment  
        
      * -> askDoctorCategoryList -> askDoctorCategoryList.askCat -> askDoctorCategoryList.askCat.askDetail -> askDoctorCategoryList.askCat.askDetail.askComment  
                                                                 -> askDoctorCategoryList.askCat.askCreate  
